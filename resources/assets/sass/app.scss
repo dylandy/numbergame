@@ -1,0 +1,49 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body.well{
+  border:none;
+  border-radius:0;
+  box-shadow: none;
+  margin:0;
+  h1, h2, h3{
+    text-align:center; 
+  }
+  div.select-number{
+    margin-top:10px;
+    input{
+      &[type="text"]{
+        width:30%;
+      }
+    } 
+  }
+  div.user-interact{
+    margin-top:20px;
+    input{
+      &[type="text"]{
+        width:85%;
+      }
+      &[type="submit"]{
+        border-radius:0;
+      }
+    }
+  }
+  div.guess-record{
+    div{
+      background:#efefef;
+      min-height: 300px;
+      padding:10px;
+      font-size:14px;
+    }
+  }
+  div.download{
+    margin:10px;
+  }
+}
+
